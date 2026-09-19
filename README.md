@@ -16,10 +16,8 @@ about the person's actual physical state.
 
 FocusGuard AI runs quietly in the background and uses the laptop's own webcam
 to locally detect early signs of fatigue and poor posture — blink rate, eye
-closure duration, head/neck angle, and prolonged stillness. All inference
-happens on-device. No frame, landmark, or derived feature ever leaves the
-machine. When a pattern crosses a threshold, a small local language model
-turns it into a short, specific nudge ("You've been hunched forward for 12
+closure duration, head/neck angle, and prolonged stillness.The current prototype performs local CPU inference. The planned Snapdragon deployment is designed for on-device NPU inference so that raw webcam data can remain on the device.No frame, landmark, or derived feature ever leaves the
+machine. When a pattern crosses a threshold, a local coaching engine turns detected patterns into a short, specific nudge ("You've been hunched forward for 12
 minutes — want to stretch?") instead of a generic timer ping.
 
 ## Why Snapdragon
