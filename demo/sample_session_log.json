@@ -1,0 +1,12 @@
+{
+  "started_at": 1789740423.208887,
+  "duration_seconds": 62.77679419517517,
+  "event_count": 1,
+  "events": [
+    {
+      "kind": "drowsiness",
+      "severity": "moderate",
+      "detail": "Eyes mostly closed for 3s"
+    }
+  ]
+}
